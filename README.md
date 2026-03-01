@@ -1,8 +1,4 @@
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>AB Publisher</title>
-</head>
 <body style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6;">
 
   <h1>AB Publisher</h1>
