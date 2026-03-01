@@ -19,7 +19,11 @@
     manage recurring bills, and view forward balance forecasts.
   </p>
   <p>
-    <em>Coming soon to Google Play</em>
+    <a href="[[https://play.google.com/store/apps/details?id=com.abpublisher.anxiousattachment](https://play.google.com/store/apps/details?id=com.abpublisher.cashflow_forecast_budget
+)](https://play.google.com/store/apps/details?id=com.abpublisher.cashflow_forecast_budget
+)" target="_blank">
+      View on Google Play
+    </a>
   </p>
 
   <h3>Anxious Attachment Companion</h3>
