@@ -386,13 +386,15 @@
       color: var(--muted);
       font-size:12px;
     }
-    .footerGrid{
-      display:flex;
-      justify-content:space-between;
-      gap:14px;
-      flex-wrap:wrap;
-      align-items:center;
-    }
+  .footerGrid{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+  flex-wrap:wrap;
+  text-align:center;
+}    
+
     .tinyLinks{ display:flex; gap:14px; flex-wrap:wrap; }
     .tinyLinks a{ color:var(--muted); }
     .tinyLinks a:hover{ color:var(--text); }
@@ -702,19 +704,23 @@
     </section>
 
     <footer>
-      <div class="footerGrid">
-        <div>
-          <b style="color:var(--text);">AB Publisher LLC</b><br/>
-          <span>© <span id="year"></span> • All rights reserved</span>
-        </div>
+    <div class="footerGrid">
 
-        <div class="tinyLinks">
-          <!-- Create these pages later if you want -->
-          <a href="https://abpublisher.github.io/Anxious-Attachment-Companion/privacy-policy.html">Privacy Policy</a>
-          <a href="mailto:ABPublisherLLC@gmail.com">Support</a>
-          <a href="https://play.google.com/store/apps/details?id=com.abpublisher.anxiousattachment">Download</a>
-        </div>
-      </div>
+  <div class="footerLeft">
+    <b style="color:var(--text);">AB Publisher LLC</b>
+    <span> © <span id="year"></span> • All rights reserved</span>
+  </div>
+
+  <div class="tinyLinks">
+    <a href="privacy-policy.html" target="_blank">Privacy Policy</a> |
+    <a href="mailto:ABPublisherLLC@gmail.com">Support</a> |
+    <a href="https://play.google.com/store/apps/details?id=com.abpublisher.anxiousattachment" target="_blank">Download</a>
+  </div>
+
+</div>      
+
+
+
     </footer>
   </main>
 
