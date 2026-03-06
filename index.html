@@ -201,6 +201,41 @@
       align-items:center;
       margin-top:14px;
     }
+    .authorHero{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-top:22px;
+      padding:14px 16px;
+      border:1px solid rgba(255,255,255,.12);
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+      border-radius:18px;
+      box-shadow: 0 14px 36px rgba(0,0,0,.28);
+      max-width: 520px;
+    }
+
+    .authorHero img{
+      width:64px;
+      height:64px;
+      border-radius:50%;
+      object-fit:cover;
+      border:1px solid rgba(255,255,255,.16);
+      flex:0 0 auto;
+    }
+
+    .authorHeroText strong{
+      display:block;
+      font-size:15px;
+      color:var(--text);
+    }
+
+    .authorHeroText span{
+      display:block;
+      margin-top:4px;
+      font-size:13px;
+      color:var(--muted);
+      line-height:1.5;
+    }
 
     .heroCard{
       border:1px solid rgba(255,255,255,.12);
@@ -473,7 +508,16 @@
             <b>Anxious Attachment Companion</b> helps you understand anxious attachment patterns,
             calm relationship anxiety, and develop healthier emotional habits — one small step at a time.
           </p>
-
+          <div class="authorHero">
+            <img src="assets/jordan-blake.jpg" alt="Jordan Blake author photo" />
+            <div class="authorHeroText">
+              <strong>Jordan Blake</strong>
+              <span>
+                Author and educator focused on anxious attachment, emotional regulation,
+                and building healthier relationship patterns.
+              </span>
+            </div>
+          </div>
           <div class="cta" id="download">
             <!-- Replace this link with your real Play Store URL -->
             <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.abpublisher.anxiousattachment" target="_blank" rel="noopener">
